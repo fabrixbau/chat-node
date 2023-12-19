@@ -1,0 +1,30 @@
+{
+  "name": "chat-node",
+  "version": "1.0.0",
+  "description": "Es un chat hecho con node",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabrixbau/chat-node.git"
+  },
+  "author": "fabrixbau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabrixbau/chat-node/issues"
+  },
+  "homepage": "https://github.com/fabrixbau/chat-node#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "morgan": "^1.10.0",
+    "node": "^21.2.0",
+    "socket.io": "^4.7.2"
+  }
+}
